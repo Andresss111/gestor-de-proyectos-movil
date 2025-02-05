@@ -4,7 +4,7 @@ import '../models/project.dart';
 import '../models/task.dart';
 
 class ApiService {
-  final String baseUrl = 'http://172.18.72.118:8080';
+  final String baseUrl = 'http://172.16.156.202:8080';
 
   Future<List<Project>> getProjects() async {
     final response = await http.get(Uri.parse('$baseUrl/projects'));

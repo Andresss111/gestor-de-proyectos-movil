@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:front/screens/add_edit_project_screen.dart';
 import 'package:provider/provider.dart';
 import '../dialogs/add_edit_project_dialog.dart';
 import '../dialogs/add_edit_task_dialog.dart';
 import '../models/project.dart';
 import '../providers/project_provider.dart';
 import '../widgets/task_item.dart';
-import 'add_task_screen.dart';
 
 class ProjectDetailScreen extends StatelessWidget {
   final Project project;
